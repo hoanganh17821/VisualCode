@@ -1,0 +1,11 @@
+.title ul li {
+    list-style: none;
+  font-size: 18px;
+    display: inline-block;
+    color: black;
+  margin-right: 25px;
+}
+.title h3 {
+    margin-bottom: 70px;
+    
+}

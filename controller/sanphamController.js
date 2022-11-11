@@ -1,0 +1,3 @@
+function sanphamController($scope){
+    
+}

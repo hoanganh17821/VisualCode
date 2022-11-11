@@ -1,0 +1,45 @@
+<div ng-controller="myController">
+    <article>
+        <div class="title" style="text-align: center; margin-top: 100px;">
+            <h3><b>IPHONE VIỆT NAM CHÍNH HÃNG</b></h3>
+            <ul>
+                <a href="#SPALL">
+                    <li>Tất cả sản phẩm</li>
+                </a>
+                <a href="#SPNEW">
+                    <li>IPhone 11</li>
+                </a>
+                <a href="#SPHOT">
+                    <li>IPhone 12</li>
+                </a>
+                <a href="#SPNEW">
+                    <li>IPhone 13</li>
+                </a>
+                <a href="#SPNEW">
+                    <li>IPhone 14</li>
+                </a>
+            </ul>
+        </div>
+
+    </article>
+    <article>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-4 col-sm-6" style="text-align: center; margin-top: 50px"
+                    ng-repeat="p in products5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="{{p.img}}
+                        " class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h6 class="card-title">{{p.name}}</h6>
+                            <h6><b>{{p.gia}}</b></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </article>
+</div>
