@@ -1,0 +1,127 @@
+<div ng-controller="myController">
+
+    <article style="margin-top: 50px;">
+        <div class="container" style="text-align: center;">
+
+            <h3><b>IPHONE VIỆT NAM CHÍNH HÃNG</b></h3>
+            <col-lg-12>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/slide1.jfif" class="d-block w-100" style="height: 390px;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/slide2.1.jpg" class="d-block w-100" style="height: 390px;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/silde3.jpg" class="d-block w-100" style="height: 390px;">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </col-lg-12>
+        </div>
+
+    </article>
+    <div class="container">
+        <div class="col-lg-12" style="background-color: cadetblue;  text-align: center; margin-top: 40px;"">
+            <h2><b>SẢN PHẨM MỚI NHẤT</b></h2>
+        </div>
+    </div>
+
+    <article>
+        <div class=" container">
+            <div class="row">
+                <h4 style="text-align: center; margin-top: 40px;"><b>Iphone 14</b></h4>
+                <div class="col-lg-3 col-md-4 col-sm-6" style="text-align: center; margin-top: 50px"
+                    ng-repeat="p in products1">
+                    <div class="card" style="width: 18rem;">
+                        <img src="{{p.img}}
+                        " class="card-img-top" alt="...">
+
+                        <div class="card-body">
+                            <h6 class="card-title">{{p.name}}</h6>
+                            <h6><b>{{p.gia}}</b></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </article>
+        <article>
+            <div class="container">
+                <div class="row">
+                    <h4 style="text-align: center; margin-top: 40px;"><b>Iphone 13</b></h4>
+                    <div class="col-lg-3 col-md-4 col-sm-6" style="text-align: center; margin-top: 50px"
+                        ng-repeat="p in products2">
+                        <div class="card" style="width: 18rem;">
+                            <img src="{{p.img}}
+                        " class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                                <h6 class="card-title">{{p.name}}</h6>
+                                <h6><b>{{p.gia}}</b></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+        <div class="container">
+            <div class="col-lg-12" style="background-color: rgb(175, 23, 23); text-align: center; margin-top: 40px;">
+                <h2><b>SẢN PHẨM BÁN CHẠY NHẤT</b></h2>
+            </div>
+        </div>
+
+        <article>
+            <div class="container">
+                <div class="row">
+                    <h4 style="text-align: center; margin-top: 40px;"><b>Iphone 12</b></h4>
+                    <div class="col-lg-3 col-md-4 col-sm-6" style="text-align: center; margin-top: 50px"
+                        ng-repeat="p in products3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="{{p.img}}
+                        " class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                                <h6 class="card-title">{{p.name}}</h6>
+                                <h6><b>{{p.gia}}</b></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+        <article>
+            <div class="container">
+                <div class="row">
+                    <h4 style="text-align: center; margin-top: 40px;"><b>Iphone 11</b></h4>
+                    <div class="col-lg-3 col-md-4 col-sm-6" style="text-align: center; margin-top: 50px"
+                        ng-repeat="p in products4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="{{p.img}}
+                        " class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                                <h6 class="card-title">{{p.name}}</h6>
+                                <h6><b>{{p.gia}}</b></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+    </div>

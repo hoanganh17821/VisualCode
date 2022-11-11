@@ -1,0 +1,23 @@
+<div ng-controller="myController">
+
+
+
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-3 col-md-4 col-sm-6" style="text-align: center; margin-top: 50px"
+                ng-repeat="p in the products1">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{p.img}}" alt="" />
+
+                    <div class="card-body">
+                        <h6 class="card-title">{{p.name}}}</h6>
+                        <h6><b>{{p.gia}}</b></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

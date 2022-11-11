@@ -1,0 +1,3 @@
+function gioithieuController($scope) {
+   
+}
